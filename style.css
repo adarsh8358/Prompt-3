@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1682092585257-58d1c813d9b4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.logo h1{
+    font-family: montserrat;
+    color: #13d119;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 5%;
+}
+
+.h{
+    color: black;
+    text-decoration: underline;
+}
+
+.items{
+    display: flex;
+    gap: 40px;
+    margin-left: 47%;
+}
+
+.items >a{
+    color: white;
+    text-decoration: none;
+}
+
+.items >a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+.sib{
+    padding: 10px 20px;
+    background-color: rgba(218, 165, 32, 0.63);
+}
+
+.sib:hover{
+    background-color: rgba(75, 218, 32, 0.795);
+    color: white;
+}
+
+.ri-menu-fill{
+    display: none;
+}
+
+h2{
+    font-family: montserrat;
+    font-size: 50px;
+    margin-left: 13%;
+    margin-top: 4%;
+    color: whitesmoke;
+}
+
+.yc{
+    font-size: 40px;
+}
+
+h3{
+    margin-left: 13%;
+    margin-top: 1%;
+    font-family: montserrat;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+p{
+    margin-left: 13%;
+    margin-top: 2%;
+    font-family: montserrat;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.rnb{
+    padding: 10px 20px;
+    background-color: rgba(218, 165, 32, 0.63);
+    margin-left: 13%;
+    margin-top: 3%;
+}
+
+.rnb:hover{
+    background-color: rgba(75, 218, 32, 0.795);
+    color: white;
+}
+
+.socialmedia{
+    font-size: 25px;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+
+.fb{
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.tw{
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.ws{
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.226);
+}

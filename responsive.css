@@ -1,0 +1,52 @@
+@media (max-width:600px) {
+
+
+    .items{
+        display: none;
+    }
+
+    .ri-menu-fill{
+        display: block;
+        margin-right: 2%;
+        margin-top: 1%;
+    }
+    
+    .logo h1{
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    .sib{
+        padding: 5px 8px;
+        margin-left: 30%;
+        margin-top: 2.5%;
+    }
+    
+    h2{
+        font-size: 28px;
+        margin-top: 30%;
+    }
+
+    .yc{
+        font-size: 28px;
+    }
+
+    h3{
+        font-size: 15px;
+        margin-top: 3%;
+    }
+
+    p{
+        font-size: 10px;
+        margin-top: 5%;
+    }
+
+    .rnb{
+        padding: 5px 8px;
+        margin-top: 8%;
+    }
+
+    .socialmedia{
+        margin-top: 10%;
+    }
+}
